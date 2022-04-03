@@ -1,0 +1,13 @@
+application-oauth.properties
+# 프로젝트 외 경로
+.gradle
+.idea
+# 프로젝트 제외 경로
+/build/
+/build/classes/java/main/
+/src/test/node_modules/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
